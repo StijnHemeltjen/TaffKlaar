@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAFF - Twents Amateur Film Festival</title>
+    <link rel="icon" type="image/png" href="images/weblogoklein.png">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cf1f895624.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="inschrijving.css">
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- Header-->
+
+    <div id="header">
+        <div id="top-menu">
+            <div class="container">
+                <ul class="top-menu-links inline pull-right">
+                    <li>
+                        <a href="#divOne"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="header-padding">
+                <div class="logo-container">
+                    <a href="index.html" class="logo">
+                        <img src="images/HoofdLogo-groter.png" alt="header-logo">
+                    </a>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="twentse-ros.html">TWENTSE ROS</a></li>
+                    <li><a href="thema.html">THEMA</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li class="inschrijven"><a href="inschrijving.html">INSCHRIJVEN</a></li>
+                    <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fas fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <!-- <div class="header-text">
+                <p>NEEM CONTACT MET ONS OP!</p>
+
+                <h1>Indien uw vragen nog niet beantwoorden zijn <br>kunt u op deze manier ons toch bereiken om antwoord te krijgen!</h1>
+                    <h3>TAFF is een initiatief van Videoclub Borne
+                    </h3>
+            </div> -->
+        </div>
+    </div>
+
+
+
+
+
+    <div id="twentse-ros-informatie">
+        <div class="titel">
+            <h1>Inschrijven </h1>
+            <p>Schrijf je nu in en ga voor die Twentse Ros!</p>
+        </div>
+        <div class="eerste-tekst">
+            <form action="https://formspree.io/f/mvoeabwd" method="POST">
+                <input type="text" name="first-name" placeholder="Voornaam*" class="contact-inputs" required>
+                <input type="text" name="last-name" placeholder="Achternaam*" class="contact-inputs" required>
+                <input type="text" name="telephone" placeholder="Telefoonnummer*" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="E-mailadres*" required>
+                <input type="text" name="Geboortedatum" placeholder="Geboortedatum*" class="contact-inputs" required>
+                <input type="text" name="title" placeholder="Film Titel*" class="contact-inputs" required>
+                <textarea name="message" id="message" rows="6" placeholder="Korte omschrijving*"></textarea>
+                <button type="submit" id="submit" class="btn btn2">Verstuur</button>
+            </form>
+        </div>
+    </div>
+    <!-- ------------ Contact ------------ -->
+
+
+    <div class="test">
+
+    </div>
+
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Twents Amateur Film Festival - 2024</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAFF - Twents Amateur Film Festival</title>
+    <link rel="icon" type="image/png" href="images/weblogoklein.png">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/cf1f895624.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="contactstyle.css">
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- work at cnc gear popup -->
+
+    <div class="overlay" id="divOne">
+        <div class="wrapper">
+            <h2>Vacatures</h2>
+            <a href="#" class="close">&times;</a>
+            <div class="content">
+                <h4>Wij hebben op dit moment geen openstaande vacatures</h4>
+                <p>Onze organisatie staat er uiteraard altijd voor open om in contact te komen met kandidaten die denken van meerwaarde te kunnen zijn in één van onze bedrijfsprocessen. Om contact op te nemen mailt u naar:</p>
+                <div class="centered-mail">
+                    <a href="mailto:jellevanharsselaar@cnc-gear.nl" class="mail"><i class="fa-solid fa-paper-plane"><span style="color: #e7e7e7;">--</span></i>jellevanharsselaar@cnc-gear.nl</a>
+                </div>            
+            </div>
+        </div>
+    </div>
+
+    <!-- Header-->
+
+    <div id="header">
+        <div id="top-menu">
+            <div class="container">
+                <ul class="top-menu-links inline pull-right">
+                    <li>
+                        <a href="#divOne"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <nav class="header-padding">
+                <div class="logo-container">
+                    <a href="index.html" class="logo">
+                        <img src="images/HoofdLogo-groter.png" alt="header-logo">
+                    </a>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="twentse-ros.html">TWENTSE ROS</a></li>
+                    <li><a href="thema.html">THEMA</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li class="inschrijven"><a href="inschrijving.html">INSCHRIJVEN</a></li>
+                    <!-- <i class="fas fa-times" onclick="closemenu()"></i> -->
+                </ul>
+                <!-- <i class="fas fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="header-text">
+                <p>HEB JE VRAGEN?</p>
+
+                <h1>Neem dan contact met ons op met onderstaand formulier!</h1>
+                    <h3>TAFF is een initiatief van Videoclub Borne
+                    </h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------ Contact ------------ -->
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row-1">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p>Stel je vraag via dit formulier,<br>of stuur ons een e-mail!</p>
+                    <p><i class="fa-solid fa-paper-plane"></i><a href="mailto:info@twentsamateurfilmfestival.nl" style=" color: white; text-decoration: none;">info@twentsamateurfilmfestival.nl</a></p>
+                    <!-- <p><i class="fa-solid fa-phone"></i><a href="tel:0031541858391" style="color: white; text-decoration: none;">+31 TELEFOONNUMMER</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i>Adres:<br>
+                    <pre>            STRAAT<br>            POSTCODE - WOONPLAATS<br>            Nederland<br><br></pre> -->
+                    </p>
+
+                    <!-- <div class="social-icons">
+                        <a href="https://www.linkedin.com/company/cnc-gear/?originalSubdomain=nl" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.youtube.com/@cncgear6510" target="_blank"><i
+                                class="fa-brands fa-youtube"></i></a>
+                    </div> -->
+                </div>
+
+                
+
+
+                <div class="contact-right">
+                    <form action="https://formspree.io/f/mvoeabwd" method="POST">
+                        <input type="text" name="name" placeholder="Naam*" class="contact-inputs" required>
+                        <input type="text" name="telephone" placeholder="Telefoonnummer*" class="contact-inputs" required>
+                        <input type="email" name="email" placeholder="E-mailadres*" required>
+                        <textarea name="message" id="message" rows="6" placeholder="Bericht*"></textarea>
+                        <button type="submit" id="submit" class="btn btn2">Verstuur</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Twents Amateur Film Festival - 2024</p>
+        </div>
+    </div>
+</body>
+
+</html>
